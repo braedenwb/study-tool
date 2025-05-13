@@ -14,7 +14,7 @@ public class Main extends Application
         Parent root = FXMLLoader.load(getClass().getResource("studytool.fxml"));
 
         primaryStage.setTitle("Study Tool");
-        primaryStage.setScene(new Scene(root, 400, 300));
+        primaryStage.setScene(new Scene(root, 1200, 800));
         primaryStage.show();
     }
 
