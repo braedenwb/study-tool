@@ -9,13 +9,18 @@ import javafx.stage.Stage;
 
 public class Main extends Application
 {
+    private final int screenWidth = 900;
+    private final int screenHeight = 600;
+
     @Override
     public void start(Stage primaryStage) throws Exception
     {
         Parent root = FXMLLoader.load(getClass().getResource("studytool.fxml"));
 
+        Scene scene = new Scene(root, screenWidth, screenHeight);
+
         primaryStage.setTitle("Study Tool");
-        primaryStage.setScene(new Scene(root, 1200, 800));
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 

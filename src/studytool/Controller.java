@@ -11,6 +11,6 @@ public class Controller
 
     public void initialize()
     {
-        label.setText("Hello");
+        label.setText("");
     }
 }
