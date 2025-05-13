@@ -1,2 +1,2 @@
 # Study Tool
-A helpful Java application for studying
+A helpful Java application for studying 
